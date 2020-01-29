@@ -6,8 +6,7 @@ module.exports = {
         project: './tsconfig.json',
     },
     env: {
-        browser: true,
-        node: true,
+        // Environment setting for predefined global variables
     },
     plugins: [
         'import',

@@ -6,8 +6,7 @@ module.exports = {
         'import',
     ],
     env: {
-        browser: true,
-        node: true,
+        // Environment setting for predefined global variables
     },
     extends: [
         'plugin:vue/recommended',
